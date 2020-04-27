@@ -48,7 +48,7 @@ namespace Last_Online
                 return;
             }
             string name = string.Join(" ", args.Parameters);
-            TShockAPI.DB.User DbUser = new UserManager(TShock.DB).GetUserByName(name);
+            TShockAPI.DB.UserAccount DbUser = new  UserAccountManager(TShock.DB).GetUserAccountByName(name);
             if (DbUser == null)
             {
                 args.Player.SendErrorMessage("Player not found! (Doesn't exist? Also Case Sensitivity is important)");
