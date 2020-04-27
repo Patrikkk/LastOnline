@@ -17,7 +17,7 @@ namespace Last_Online
         }
         public override string Author
         {
-            get { return "Ancientgods, Enerdy"; }
+            get { return "Patrikk"; }
         }
         public override string Name
         {
